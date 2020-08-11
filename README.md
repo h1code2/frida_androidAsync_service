@@ -6,4 +6,4 @@ Frida+AndroidAsync Implement interface service registration.
 AndroidAsync(类似Andserver/NanoHTTPD):https://github.com/koush/AndroidAsync
 
 接口调用效果:
-![image](https://github.com/Frida_AndroidAsync_Service/master/image.png)
+![image](https://github.com/h1code2/Frida_AndroidAsync_Service/blob/master/image.png)
