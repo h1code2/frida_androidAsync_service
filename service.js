@@ -1,3 +1,4 @@
+// dy 11.0.0
 Java.perform(function () {
     Java.openClassFile("/data/local/tmp/androidAsync.dex").load();
     Java.openClassFile("/data/local/tmp/r0gson.dex").load();
