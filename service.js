@@ -5,7 +5,7 @@ Java.perform(function () {
     var Gson = Java.use('com.r0ysue.gson.Gson'); // 使用Gson将对象类转成Json对象时出现\u003d 、\u0027等情况的问题
     var gson = Gson.$new();
 
-    // 构建一个默认相应
+    // 构建一个默认请求
     var HttpServerRequestCallback = Java.use("com.koushikdutta.async.http.server.HttpServerRequestCallback");
     var RequestTestCallback = Java.registerClass({
         name: "RequestTestCallback",
