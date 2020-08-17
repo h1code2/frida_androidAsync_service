@@ -47,6 +47,7 @@ Java.perform(function () {
         } catch (e) {
             console.error("服务器已经注册失败, e:" + e);
         }
+        this.attach.apply(this, arguments);
     };
 
     // 函数拦截测试
